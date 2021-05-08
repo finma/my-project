@@ -1,0 +1,43 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.input-value {
+  width: 65%;
+}
+
+.btn-input {
+  color: #f25c3e;
+}
+
+.btn-input:hover {
+  background-color: #f25c3e;
+  color: white;
+}
+
+.list {
+  display: flex;
+  margin-top: 0.25rem;
+  justify-content: center;
+  transition: all 500ms ease;
+}
+
+.fa-check {
+  background-color: rgb(41, 240, 41);
+  color: white;
+}
+
+.fa-trash {
+  background-color: red;
+  color: white;
+}
+
+.checked {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.fall {
+  transform: translateY(8rem) rotate(20deg);
+  opacity: 0;
+}
